@@ -11,6 +11,8 @@ const Navbar = () => {
                         <li> <Link href={"/about"} >About Us</Link>  </li>
                         <li> <Link href={"/faq"} >Faq</Link>  </li>
                         <li> <Link href={"/contact"} >Contact</Link>  </li>
+                        <li> <Link href={"/about/mission"} >Mission</Link>  </li>
+                        <li> <Link href={"/vission"} >Vission</Link>  </li>
                     </ul>
                 </nav>
             </div>
