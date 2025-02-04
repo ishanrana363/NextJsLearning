@@ -1,6 +1,13 @@
+
+
 import BlogCard from '@/components/blog-card/BlogCard'
 import React from 'react'
 
+
+export const metadata = {
+    title: "Blog Page",
+    description: "This is blog page with blog data"
+}
 const Blog = () => {
     const blog = [
         {
@@ -84,6 +91,8 @@ const Blog = () => {
             "image": "https://res.cloudinary.com/dj2edy2rg/image/upload/v1738595989/blgo_km1yym.png"
         }
     ]
+
+
 
     return (
         <div>
